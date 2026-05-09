@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-calculator-project"
+version = "0.0.0"
+description = "A tiny example Simple Calculator package used for pytest demos and CI"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [ { name = "BlueDay" } ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["simple_calculator*"]
+

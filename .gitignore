@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+.venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest outputs
+results.xml
+
