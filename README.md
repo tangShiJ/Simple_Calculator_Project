@@ -43,3 +43,6 @@ CMD ["python", "-m", "pytest", "-q"]
 Notes
 - The project is installed in editable mode for local development so tests can import the package without modifying `sys.path`.
 - The tests include some skipped/xfail examples for demonstration; adjust as needed for a strict green CI.
+=======
+The pytest automated testing framework for a simple calculator project, as well as the CI/CD deployment process.
+>>>>>>> 830b11a85fd06123ed4a438838a515399de6a941
